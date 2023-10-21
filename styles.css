@@ -9,6 +9,14 @@
     h1, h2 {
         color: black;
     }
+
+    .home-1 {
+        margin: 30px;
+    }
+
+    .away-1 {
+        margin: 30px;
+    }
 }
 
 body {
