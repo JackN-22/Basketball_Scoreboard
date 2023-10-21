@@ -2,11 +2,17 @@
     padding: 0;
     margin: 0;
     font-family: 'Orbitron';
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+    h1, h2 {
+        color: black;
+    }
 }
 
 body {
     background: #ff971d;
-    text-shadow:
 }
 
 h1 {
@@ -55,6 +61,7 @@ hr {
     padding: 50px;
     text-align: center;
     justify-content: center;
+    justify-content: space-around;
     border-radius: 20px;
     box-shadow: 5px 10px;
 }
@@ -64,7 +71,8 @@ hr {
     padding: 50px;
     text-align: center;
     justify-content: center;
+    justify-content: space-around;
     float: right;
     border-radius: 20px;
-     box-shadow: 5px 10px;
+    box-shadow: 5px 10px;
 }   
