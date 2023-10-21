@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Orbitron';
+}
+
+body {
+    background: #ff971d;
+    text-shadow:
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+h2 {
+    padding: 40px;
+    font-size: 50px;
+    font-size: 70px;
+    margin-top: -50px;
+}
+
+hr {
+    width: 800px;
+    margin: auto;
+    border: 1px solid;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.btn:hover{
+    background-color: #FFD580;
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.home-1 {
+    border: 2px solid;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 5px 10px;
+}
+
+.away-1 {
+    border: 2px solid;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    float: right;
+    border-radius: 20px;
+     box-shadow: 5px 10px;
+}   
